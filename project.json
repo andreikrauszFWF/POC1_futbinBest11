@@ -1,0 +1,113 @@
+{
+  "name": "POC1_Futbin_best_11",
+  "description": "Project that selects the best 11 from Futbin best 11, then sends a link that takes you to the selected team's page. The link is sent via email.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b0b2adba-0658-4d14-97be-cb14548108f1",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_CheckIfOnePlayerPerPos.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a5cd790e-ba72-47f3-a77a-326de4729766",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_ExtractPlayersStatstoDT.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "af26ea7f-2d66-4442-9d31-03b1ef5e0eb1",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_FilterPlayers.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c908969b-d4aa-4da2-9d51-f70c3118e478",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_GoToSelectedLeague.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2c0f2625-37b2-4685-9133-612a4230ebdb",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_NavigateTo_BuilderPage.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d3ddc63c-537d-4853-aa85-69fe84c8d06e",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_NavigateTo_PlayersPage.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5f38217c-6661-4ae7-8167-f53729335157",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_Open.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "04facac8-029c-4857-b0dd-675e8d4eac0d",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_SaveSelectedTeam.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dec73478-5737-4212-aa42-df04004dcb50",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TestCase_Futbin_SelectPlayerForPosition.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "63d7e75e-f381-4e3f-a8a6-bcbf9f86773e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
